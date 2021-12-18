@@ -3,11 +3,17 @@
 #### This repository was created by Ross Coleman, Saad Rehman, Lily Manetta, Maureen McCormack, and Maha Alaoui
 
 #### Table of Contents
+
 Introduction
+
 Business Understanding
+
 Data Understanding
+
 Data Preperation
+
 Modeling and Evaluation
+
 Conclusion
 
 # Introduction
