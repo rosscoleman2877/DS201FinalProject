@@ -1,6 +1,14 @@
 # Examination of variables in order to Gather how Best to Predict Baseball Pitches
 
-#### This repository was created by Ross Coleman, Saad Rehman, Lily Manetta, Maureen McCormack, and 
+#### This repository was created by Ross Coleman, Saad Rehman, Lily Manetta, Maureen McCormack, and Maha Alaoui
+
+#### Table of Contents
+Introduction
+Business Understanding
+Data Understanding
+Data Preperation
+Modeling and Evaluation
+Conclusion
 
 # Introduction
 This project aims to use the steps of the entire data science process to gain actionable insight. For this project, we are analyzing the statistics of MLB pitcher Clayton Kershaw. We aim to walk users through the following steps: Business Understanding, Data Understanding, Data Preparation, Modeling + Evaluating (EDA + Machine Learning Model Training), and Deployment. This project aims to use the insights to help Clayton Kershaw be the best possible pitcher that he can be by exploiting the data.
@@ -75,6 +83,9 @@ The data was scraped from the MLB GameDay website (http://gd2.mlb.com/components
 
 
 **Source:** Data scraped from the MLB GameDay website (http://gd2.mlb.com/components/game/mlb/) using pitchRx
+
+# Data Preperation
+After the data is read into Google Colab, we can now drop the columns we are not using for this analysis. In this case, it is resultpred and resultpred1. These were predicted statistics for Kershaw by the source of the data that didn't make sense to us nor contribute to our project.
 
 # Modeling and Evaluation
 ### Exploratory Data Analysis
