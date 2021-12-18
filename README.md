@@ -125,6 +125,14 @@ We first ran a logistic regression model, as the y variable, "Result" is a binar
 
 The application of these findings to our business understanding and insight is that it shows that Clayton Kershaw could use these statistics and results to solidify and improve his pitching game. If he utilizes this, he could use his pitching strength and talent as leverage for signing his next contract and with his new team. He could also extend his baseball career to be longer than the average baseball player. This project also showed that there are numerous ways in which he can either improve or extend his success; whether that is throwing pitches every day or going to the gym, there are ways to do it. The limitation with this study is that these statistics are from 2013, which was 7 years ago. Since then, Kershaw has increased his pitches and has become even better than before. Some directions of future research for this study include analyzing other factors that could influence pitches, including body weight, height, location of the game, and nutrition.
 
+# Link to Video Explanation
+https://www.youtube.com/watch?v=xVDP32wl_yE&feature=youtu.be
+# Link to Presentation
+https://youtu.be/hdorrP-Kt0s
+
+# Link to Google Colab
+https://colab.research.google.com/drive/15Wgk6IUgyj564Akj5AQTF24Fb2LLIu6y?usp=sharing
+
 # References
 http://www.thecompletepitcher.com/pitching_velocity.htm
 
@@ -137,11 +145,3 @@ https://www.dummies.com/article/home-auto-hobbies/sports-recreation/baseball/wha
 https://www.popsci.com/story/science/why-is-hitting-a-baseball-so-hard/
 
 https://www.espn.com/mlb/story/_/id/32754352/everything-need-know-mlb-looming-lockout
-
-# Link to Video Explanation
-https://www.youtube.com/watch?v=xVDP32wl_yE&feature=youtu.be
-# Link to Presentation
-https://youtu.be/hdorrP-Kt0s
-
-# Link to Google Colab
-https://colab.research.google.com/drive/15Wgk6IUgyj564Akj5AQTF24Fb2LLIu6y?usp=sharing
