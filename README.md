@@ -78,3 +78,6 @@ The data was scraped from the MLB GameDay website (http://gd2.mlb.com/components
 
 # Modeling and Evaluation
 ### Exploratory Data Analysis
+<img scr ="plot1.png" width="600" height="400">
+The histogram shows the inning of the game and the frequency of the pitches Kershaw threw. From this we can see that Kershaw threw the majority of his pitches between the third and fourth inning and his least pitches in the eighth and ninth. Additionally, from the fifth inning, we can see that his pitching decreases.
+                                          
