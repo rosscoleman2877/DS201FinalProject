@@ -81,3 +81,67 @@ The data was scraped from the MLB GameDay website (http://gd2.mlb.com/components
 <img src ="plot1.png" width="600" height="400">
 The histogram shows the inning of the game and the frequency of the pitches Kershaw threw. From this we can see that Kershaw threw the majority of his pitches between the third and fourth inning and his least pitches in the eighth and ninth. Additionally, from the fifth inning, we can see that his pitching decreases.
                                           
+<img src ="plot2.png" width="600" height="400">
+Zones 1-9 represents the strike zone and zones 11-14 are outside of the strike zone. The majority of his pitches are thrown outside of the strike zone, meaning the pitch is a ball. This is not good since 4 balls will lead to a walk and the batter will advance to first base.
+
+<img src ="plot3.png" width="600" height="400">
+From the boxplot, we can see the five number distribution for the number of outs. It shows the min and the max for outs, with 0 being the min and 3 being the max.
+
+<img src ="plot4.png" width="600" height="400">
+From this boxplot, we can see that the mean end speed for Kershaw’s pitches is between 83 and 85 mph. The min for this is 65 mph and the max is 90 mph. Again, these numbers are important for this project as they provide a baseline for understanding how fast Kershaw throws.
+
+<img src ="plot5.png" width="600" height="400">
+From this boxplot, we can see that the mean start speed for Clayton Kershaw is between 93 and 95 mph. The min for this is 70 and the max is 100.
+
+<img src ="plot6.png" width="600" height="400">
+<img src ="plot7.png" width="600" height="400">
+Using our references, we found that baseball had an average of 146 pitches per game. This graph illustrates as the batter numbers increase, the end speed gets slower. This is a relevant finding as it shows that Kershaw gets tired over time so his pitches get slower.
+
+<img src ="plot8.png" width="600" height="400">
+In the line plot, we can see that his fastest pitches are not necessarily the ones with the most spin.
+
+<img src ="plot9.png" width="600" height="400">
+In the scatterplot, we can see that as the speed gets faster, the nasty score increases, but not by much. This is a weak correlation as it signifying that the fastest speeds are not necessarily the most difficult pitches.
+
+<img src ="plot10.png" width="600" height="400">
+The most common pitch is fastball with over 2,000, followed by slider, then curveball and least common is changeup.
+
+<img src ="plot11.png" width="600" height="400">
+In the bar chart above, we see that pitching sliders and fastballs are more likely to result in a positive outcome, while pitching a changeup is the least likely to result in a positive outcome.
+
+# Machine Learning
+In this section, we are using machine learning to predict the outcome of the pitch Kershaw threw. We are using machine learning to predict if the outcome of the pitch is a strike or foul.
+
+<img src ="plot12.png" width="600" height="400">
+
+# Deployment and Conclusion
+In this project, we used Clayton Kershaw’s 2013 Pitching Statistics to gain insight on ways he could increase his pitching speeds and outcomes. Through this project as well as our prior research, we can conclude that Kershaw is one of the best pitchers in the MLB. For example, from the boxplots that we created, we can see that Kershaw’s average start and end speeds were 85 to 93 mph. Compared to other players in the league who typically throw between 75-85 mph, these statistics are very high. This finding is relevant to our business understanding and findings as it we showed in our machine learning portion that pitches speed has a significant effect on the result of the pitch. According to The Complete Pitcher, Kershaw could increase his speed by increasing his pelvic and arm strength. So, focusing on Kershaw's pitch speed could help him to be the best pitcher possible.
+
+Much of our exploratory data analysis gives background information regarding Kershaw's pitches. We can understand Kershaw's pitches and himself as a pitcher. For example, our histogram of the starting pitch speeds shows that there are three main buckets of speeds, which are dependent on the type of pitch he throws. Fastballs are going to take up the bucket with the highest mph, followed by changeups, followed by curveballs and sliders. We also have a count plot that shows how frequently Kershaw throws each type of pitch. A final example of how we used the EDA to further understand the data was by creating a scatterplot of Kershaw's pitch speeds as being dependent on how many batters he had faced in that game so far. There was a negative relationship between the two, which makes sense because as a game continues Kershaw will get more tired, so his speed will decrease.
+
+In our machine learning models, we chose two variables that we believed significantly contributed to a successful result. Speed and nastiness were the two variables that we chose, because we figured that the more speed and more spin a pitch has, the harder it will be for the batter, so the better for Kershaw.
+
+We first ran a logistic regression model, as the y variable, "Result" is a binary variable. When fitting our model in the logistic regression we obtained an accuracy that was somewhat accurate but could be improved. Therefore we also ran a neural network to attempt to gain more accurate results. Unfortunately, the accuracy didn't increase by much. This suggests that we should include more variables that have higher explanatory power to increase our accuracy and generate a better predictor as to how well Kershaw's pitches will be. In baseball analytics nowadays, there are always more available data that we can incorporate into our models to gain a higher accuracy score.
+
+The application of these findings to our business understanding and insight is that it shows that Clayton Kershaw could use these statistics and results to solidify and improve his pitching game. If he utilizes this, he could use his pitching strength and talent as leverage for signing his next contract and with his new team. He could also extend his baseball career to be longer than the average baseball player. This project also showed that there are numerous ways in which he can either improve or extend his success; whether that is throwing pitches every day or going to the gym, there are ways to do it. The limitation with this study is that these statistics are from 2013, which was 7 years ago. Since then, Kershaw has increased his pitches and has become even better than before. Some directions of future research for this study include analyzing other factors that could influence pitches, including body weight, height, location of the game, and nutrition.
+
+# References
+http://www.thecompletepitcher.com/pitching_velocity.htm
+
+https://bleacherreport.com/articles/671695-aroldis-chapman-and-the-15-fastest-pitches-ever-recorded
+
+https://www.milb.com/news/gcs-173407668
+
+https://www.dummies.com/article/home-auto-hobbies/sports-recreation/baseball/what-you-need-to-know-to-follow-major-league-baseball-156840
+
+https://www.popsci.com/story/science/why-is-hitting-a-baseball-so-hard/
+
+https://www.espn.com/mlb/story/_/id/32754352/everything-need-know-mlb-looming-lockout
+
+# Link to Video Explanation
+https://www.youtube.com/watch?v=xVDP32wl_yE&feature=youtu.be
+# Link to Presentation
+https://youtu.be/hdorrP-Kt0s
+
+# Link to Google Colab
+https://colab.research.google.com/drive/15Wgk6IUgyj564Akj5AQTF24Fb2LLIu6y?usp=sharing
